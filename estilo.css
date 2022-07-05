@@ -1,0 +1,394 @@
+ * {
+     padding: 1%;
+     margin: 1%;
+     box-sizing: border-box;
+ }
+
+ nav ul li {
+     display: inline-flex;
+     line-height-step: 50px;
+     margin: 0 5px;
+     text-align: center;
+ }
+
+ nav {
+     width: 70%;
+ }
+
+ /*.prueba {
+
+ }*/
+
+ .content__title {
+     font-size: 50px;
+     /*background-color: aqua;*/
+     color: crimson;
+     font-family: cursive;
+     text-align: center;
+
+ }
+
+ .lista {
+     background-image: url(./assets/fondo\ 2.jpg);
+     color: fuchsia;
+     background-size: cover;
+     list-style: lower-roman;
+ }
+
+ .header {
+     padding: 20px 10px;
+     display: flex;
+ }
+
+ h4 {
+     display: flex;
+     justify-content: 50q;
+ }
+
+
+ h2 {
+     color: blueviolet;
+     background-color: none;
+ }
+
+ .body {
+     background-color: rgb(206, 163, 191);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background: url(./assets/fondodeinicio.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ h3 {
+     font-size: 100px;
+     font-family: cursive;
+ }
+
+ .grid {
+     background-color: rgb(10, 168, 173);
+     width: 390px;
+     display: grid;
+     grid-template-columns: 1fr;
+     justify-items: center;
+     align-items: center;
+ }
+ .action :hover {
+transform: translatex(50px);
+background-color: #ddd;
+color: #000;
+ }
+
+.transform img {
+    transform: skew(10deg);
+}
+
+ .centrado {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .centro {
+     text-align: center;
+ }
+
+ .grid__item {
+     font-size: 50px;
+     border: 2px solid blue;
+     color: rgb(10, 1, 9);
+     justify-items: start;
+     font-family: fantasy;
+ }
+
+ footer {
+     color: rgb(248, 248, 248);
+ }
+
+ p {
+     color: black;
+ }
+
+ a {
+     color: black;
+     text-decoration: none;
+ }
+
+ .negrita {
+     font-weight: bold;
+ }
+
+ .fuente-grande {
+     font-size: 20px;
+ }
+
+ .interlineado {
+     line-height: 2;
+ }
+
+ .decoracion {
+     text-decoration: none;
+ }
+
+ .caja {
+     background-color: rgb(119, 69, 119);
+     width: 360px;
+     height: 360px;
+     margin: 30px;
+     padding: 3px;
+     border: 10px inset rgb(219, 73, 54);
+ }
+
+ .position {
+     position: relative;
+ }
+
+ .cuadradito {
+     width: 150px;
+     height: 150px;
+ }
+
+ .flex {
+     display: flex;
+     width: 500px;
+     justify-content: center;
+ }
+
+ .inicio {
+     color: red;
+     background-size: cover;
+     background-image: url(./assets/imagenfondo.jpeg);
+ }
+
+ h2 {
+     color: gainsboro;
+     background-color: none;
+     font-size: 50px;
+ }
+
+ .fondo {
+     background-image: url(./assets/fondodesesion.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ .imágen {
+     background-image: url(./assets/fondodesesion2.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ .tarjetas {
+     background-color: rgb(230, 166, 166);
+     width: 280px;
+     border-radius: 20px;
+     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+     /*flex-wrap: initial;*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+    }
+
+.tarjetas img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tarjetas small {
+    background-color: rgba(255,255,255,0.5);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 10px;
+}
+
+ .gusto {
+         background-image: url(./assets/gustos1.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+
+     }
+
+     .cards__tarjeta {
+     max-width: 380px;
+     display: grid;
+     grid-template-columns: 1fr;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     border-radius: 20px;
+     }
+
+     .card__item1 {
+         position: relative;
+         border-radius: 20px;
+     }
+
+
+     .card__item2 {
+         position: relative;
+     }
+
+     .card__item3 {
+         position: relative;
+     }
+
+     .card__item4 {
+         position: relative;
+     }
+
+     .card__item5 {
+         position: relative;
+     }
+
+     .card__item6 {
+         position: relative;
+     }
+
+     .card__item7 {
+         position: relative;
+     }
+
+     .card__item8 {
+         position: relative;
+     }
+
+     .card__item9 {
+         position: relative;
+     }
+
+     .card__title {
+         color: purple;
+         font-size: 25px;
+         margin-bottom: 20px;
+     }
+
+     .card__header img {
+         width: 100%;
+         border-radius: 10px;
+         margin-bottom: 20px;
+     }
+
+     .card__descrepcion {
+         margin-bottom: 30px;
+     }
+
+     .card link {
+         background-color: forestgreen;
+     }
+
+     .card__header small {
+         background-color: rgba(225, 255, 225, 0.5);
+         color: rgb(1, 0, 7);
+         padding: 8px;
+         position: absolute;
+         right: 0;
+         border-bottom-left-radius: 10px;
+     }
+
+     .ajuste {
+         display: grid;
+         grid-template-columns: 1fr;
+         justify-items: center
+     }
+
+     .grind content {
+         display: grid;
+         grid-template-rows: 40px 2fr 20px;
+         grid-auto-columns: 150px 2fr;
+
+     }
+
+     footer {
+         color: rgb(202, 6, 6);
+     }
+
+     p {
+         color: rgb(50, 2, 59);
+
+     }
+
+     a {
+         color: black;
+     }
+
+     .cursiva {
+         font-style: italic;
+     }
+
+     .negrita {
+         font-weight: bold;
+     }
+
+     .fuente-grande {
+         font-size: 20px;
+         text-align: center;
+     }
+
+     .interlineado {
+         line-height: 2;
+         font-size: 40px;
+     }
+
+     .decoracion {
+         text-decoration: none;
+     }
+
+     .caja {
+         background-color: rgb(117, 45, 117);
+         width: 360px;
+         height: 360px;
+         margin: 30px;
+         padding: 3px;
+         border: 10px inset rgb(219, 73, 54);
+     }
+
+     .video {
+         display: grid;
+     }
+
+     @media (max-width: 768px) {
+
+         h3 {
+             display: none;
+         }
+
+         h2 {
+             display: none;
+         }
+
+         p {
+             font-size: 23px;
+         }
+
+         .grid {
+             width: 400px;
+             height: 615px;
+         }
+
+         .caja {
+             width: 370px;
+             height: 370px;
+         }
+
+         .grid {
+             grid-template-columns: 1fr;
+         }
+     }
+
+     @media (max-width: 480px) {
+         ul {
+             display: none;
+         }
+
+         .centrado {
+             flex-direction: column;
+         }
+     }
