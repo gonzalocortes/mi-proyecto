@@ -1,0 +1,165 @@
+* {
+  padding: 1%;
+  margin: 1%;
+  box-sizing: border-box; }
+
+.body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url("../assets/fondodeinicio.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+  .body p {
+    line-height: 2;
+    color: #080b0e; }
+  .body header {
+    /* padding: 20px 10px;*/
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; }
+    .body header .content__title {
+      font-size: 20px;
+      /*background-color: aqua;*/
+      color: crimson;
+      font-family: cursive;
+      text-align: center;
+      flex-wrap: nowrap; }
+  .body nav {
+    width: 70%; }
+    .body nav ul li {
+      display: inline-flex;
+      line-height-step: 50px;
+      margin: 0 5px;
+      text-align: center; }
+  .body main section {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .body main section .grid {
+      background-color: #0aa8ad;
+      width: 390px;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center; }
+      .body main section .grid__item {
+        font-size: 50px;
+        border: 2px solid blue;
+        color: #0a0109;
+        justify-items: start;
+        font-family: fantasy; }
+  .body main .ajuste-transform {
+    width: 370px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center; }
+  .body main .caja {
+    background-color: #752d75;
+    width: 400px;
+    height: 390px;
+    margin: 30px;
+    padding: 3px;
+    border: 10px inset #db4936; }
+
+body {
+  background-image: url(../assets/fondodesesion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; }
+  body nav a {
+    color: aliceblue; }
+  body nav ul {
+    display: inline-flex; }
+    body nav ul .negrita {
+      font-weight: bold; }
+  body nav li {
+    display: inline-flex;
+    width: 150px;
+    flex-wrap: nowrap; }
+  body main p {
+    font-size: 18px; }
+  body main .inicio {
+    color: red;
+    background-size: cover;
+    background-image: url(../assets/imagenfondo.jpeg);
+    font-size: 20px; }
+    body main .inicio li {
+      font-style: italic;
+      font-weight: bold;
+      text-align: center; }
+  body main .caja {
+    background-color: #752d75;
+    width: 400px;
+    height: 390px;
+    margin: 30px;
+    padding: 3px;
+    border: 10px inset #db4936; }
+  body main .interlineado {
+    line-height: 2; }
+
+.estilo :hover {
+  transform: translatex(50px);
+  background-color: aliceblue; }
+
+body .imagen {
+  background-image: url(./assets/fondodesesion2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+body nav ul {
+  display: inline-flex;
+  width: 550px;
+  flex-wrap: nowrap; }
+
+.action :hover {
+  transform: translatex(50px);
+  background-color: #fafbfc; }
+
+.gusto {
+  background-image: url(../assets/gustos1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .gusto .cards__tarjeta {
+    max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    margin: 70px;
+    margin-right: 80px; }
+  .gusto .tarjetas {
+    background-color: #e6a6a6;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    /*flex-wrap: initial;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+  .gusto .tarjetas small {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 10px; }
+  .gusto .card__title {
+    color: purple;
+    font-size: 25px;
+    margin-bottom: 20px; }
+  .gusto .card__header img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px; }

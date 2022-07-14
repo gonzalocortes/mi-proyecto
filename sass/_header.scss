@@ -1,0 +1,235 @@
+* {
+    padding: 1%;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url("../assets/fondodeinicio.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        line-height: 2;
+        color: rgb(8, 11, 14);
+    }
+
+    header {
+        /* padding: 20px 10px;*/
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .content__title {
+            font-size: 20px;
+            /*background-color: aqua;*/
+            color: crimson;
+            font-family: cursive;
+            text-align: center;
+            flex-wrap: nowrap;
+        }
+    }
+
+    nav {
+        width: 70%;
+
+        ul li {
+            display: inline-flex;
+            line-height-step: 50px;
+            margin: 0 5px;
+            text-align: center
+        }
+    }
+
+    main {
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .grid {
+                background-color: rgb(10, 168, 173);
+                width: 390px;
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-items: center;
+                align-items: center;
+
+                &__item {
+                    font-size: 50px;
+                    border: 2px solid blue;
+                    color: rgb(10, 1, 9);
+                    justify-items: start;
+                    font-family: fantasy;
+                }
+            }
+        }
+
+        .ajuste-transform {
+            width: 370px;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+
+        .caja {
+            background-color: rgb(117, 45, 117);
+            width: 400px;
+            height: 390px;
+            margin: 30px;
+            padding: 3px;
+            border: 10px inset rgb(219, 73, 54);
+        }
+    }
+}
+
+body {
+    background-image: url(../assets/fondodesesion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav {
+        a {
+            color: aliceblue;
+        }
+
+        ul {
+            display: inline-flex;
+
+            .negrita {
+                font-weight: bold;
+            }
+        }
+
+        li {
+            display: inline-flex;
+            width: 150px;
+            flex-wrap: nowrap;
+        }
+    }
+
+    main {
+        p {
+            font-size: 18px;
+        }
+
+        .inicio {
+            color: red;
+            background-size: cover;
+            background-image: url(../assets/imagenfondo.jpeg);
+            font-size: 20px;
+
+            li {
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+
+        .caja {
+            background-color: rgb(117, 45, 117);
+            width: 400px;
+            height: 390px;
+            margin: 30px;
+            padding: 3px;
+            border: 10px inset rgb(219, 73, 54);
+        }
+
+        .interlineado {
+            line-height: 2;
+        }
+    }
+}
+
+.estilo :hover {
+    transform: translatex(50px);
+    background-color: aliceblue;
+}
+
+body {
+    .imagen {
+        background-image: url(./assets/fondodesesion2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    nav {
+        ul {
+            display: inline-flex;
+            width: 550px;
+            flex-wrap: nowrap;
+        }
+    }
+}
+
+.action :hover {
+    transform: translatex(50px);
+    background-color: rgb(250, 251, 252);
+}
+
+.gusto {
+    background-image: url(../assets/gustos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .cards__tarjeta {
+        max-width: 380px;
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        margin: 70px;
+        margin-right: 80px;
+    }
+
+    .tarjetas {
+        background-color: rgb(230, 166, 166);
+        width: 280px;
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        /*flex-wrap: initial;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .tarjetas small {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgb(0, 0, 0);
+        padding: 8px;
+        position: absolute;
+        right: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card__title {
+        color: purple;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .card__header img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
