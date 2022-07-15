@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+
+    h3 {
+        display: none;
+    }
+
+
+
+    .texto {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .body main section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 80px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .cards__tarjeta {
+        margin: 80px;
+        margin-right: 120px;
+    }
+
+    .caja {
+        width: 370px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 320px) {
+    ul {
+        display: none;
+    }
+
+    .ajuste-transform img {
+        margin-right: 250px;
+    }
+
+
+    .body {
+        grid-template-columns: 1fr;
+        margin-left: 150px;
+    }
+}
