@@ -92,10 +92,12 @@
 }
 
 body {
-    background-image: url(../assets/fondodesesion.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    .fondo {
+        background-image: url(../assets/fondodesesion.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
     header {
         display: flex;
@@ -159,27 +161,28 @@ body {
 
 .estilo :hover {
     transform: translatex(50px);
-    background-color:$shadowtext;
+    background-color: $shadowtext;
 }
 
-body {
-    .imagen {
-        background-image: url(./assets/fondodesesion2.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
 
-
-    nav {
-        ul {
-            display: inline-flex;
-            width: 550px;
-            flex-wrap: nowrap;
-        }
-    }
-
+.imagen {
+    background-image: url(../assets/fondodesesion2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
+
+nav {
+    ul {
+        display: inline-flex;
+        width: 550px;
+        flex-wrap: nowrap;
+    }
+}
+
+
 
 .action :hover {
     transform: translatex(50px);

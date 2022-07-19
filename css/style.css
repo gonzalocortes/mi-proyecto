@@ -171,6 +171,9 @@ body nav ul {
     font-size: 20px; }
   .gusto a {
     color: brown; }
+    .fondo {
+      background-color:burlywood; 
+    }
 
 @media (max-width: 768px) {
   h3 {
@@ -199,3 +202,9 @@ body nav ul {
   .body {
     grid-template-columns: 1fr;
     margin-left: 150px; } }
+ h4 {
+  color: cornsilk;
+ }
+a {
+  color: aliceblue;
+}
