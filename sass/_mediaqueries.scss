@@ -1,3 +1,10 @@
+@media (max-width:1440px) {
+h1{
+    font-size: 20px;
+}
+}
+
+
 @media (max-width: 768px) {
 
     h3 {
@@ -9,6 +16,7 @@
     .texto {
         display: flex;
         flex-direction: column-reverse;
+        font-size: 35px;
     }
 
 
@@ -17,9 +25,14 @@
         grid-template-columns: 1fr;
         margin: 80px;
     }
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
 
-    .header {
-        display: none;
+        h1 {
+            font-size: 20px;
+        }
     }
 
     .cards__tarjeta {
@@ -30,7 +43,7 @@
     .caja {
         width: 370px height 370px;
     }
- }
+}
 
 @media (max-width: 320px) {
     ul {
@@ -40,6 +53,11 @@
     .ajuste-transform img {
         margin-right: 250px;
     }
+ .orden {
+   display: grid;
+   grid-template-columns: 1fr;
+   color: crimson;
+}
 
 
     .body {
