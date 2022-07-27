@@ -1,6 +1,6 @@
 * {
-    padding: 1%;
-    margin: 1%;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
 
@@ -48,20 +48,23 @@
 
     main {
         section {
-            display: grid;
-            grid-template-columns: repeat(2, 300px);
+            display: flex;
             justify-content: center;
             align-items: center;
-            margin: 150px;
+
+
+            .container {
+                background-color: antiquewhite;
+            }
 
             .grid {
                 background-color: rgb(10, 168, 173);
-                width: 390px;
+                max-width: 390px;
                 display: grid;
                 grid-template-columns: 1fr;
                 justify-items: center;
                 align-items: center;
-                margin-left: 150px;
+
 
                 &__item {
                     font-size: 50px;
@@ -73,24 +76,14 @@
             }
         }
 
-        .ajuste-transform {
-            width: 370px;
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-content: center;
-        }
-
         .caja {
             background-color: $colorcaja;
-            width: 400px;
-            height: 390px;
             margin: 30px;
             padding: 3px;
             border: 10px inset rgb(219, 73, 54);
         }
     }
 }
-
 
 .fondo {
     background-image: url(../assets/fondodesesion.jpg);
@@ -145,22 +138,13 @@ main {
         }
     }
 
-    .caja {
-        background-color: $colorcaja;
-        width: 400px;
-        height: 390px;
-        margin: 30px;
-        padding: 3px;
-        border: 10px inset rgb(219, 73, 54);
-    }
-
     .interlineado {
         line-height: 2;
     }
 
     .orden {
         display: grid;
-       grid-template-columns: repeat(3, 400px);
+        grid-template-columns: repeat(3, 400px);
         transform: none;
         color: rgb(0, 0, 0);
         border-radius: 10px;
@@ -219,13 +203,14 @@ nav {
         border-radius: $smallsize;
         margin: 100px;
         margin-left: 280px;
-      li {
-        color: oldlace;
-      }
 
-      h2 {
-        color: red;
-      }
+        li {
+            color: oldlace;
+        }
+
+        h2 {
+            color: red;
+        }
     }
 
 
