@@ -1,9 +1,8 @@
 @media (max-width:1440px) {
-h1{
-    font-size: 20px;
+    h1 {
+        font-size: 20px;
+    }
 }
-}
-
 
 @media (max-width: 768px) {
 
@@ -13,26 +12,26 @@ h1{
 }
 
 
-    .body main section {
-        display: flex;
-        margin: 10px;
-     
-    }
-    
-    header {
-        display: grid;
-        grid-template-columns: 1fr;
+.body main section {
+    display: flex;
+    margin: 10px;
+    flex-direction: column-reverse;
 
-        h1 {
-            font-size: 20px;
-        }
+    .ajuste-transform {
+        flex-direction: column;
     }
- 
+}
 
-    .cards__tarjeta {
-        margin: 80px;
-        margin-right: 120px;
-    }
+h1 {
+    font-size: 20px;
+}
+
+
+
+.cards__tarjeta {
+    margin: 80px;
+    margin-right: 120px;
+}
 
 
 
@@ -41,11 +40,12 @@ h1{
     ul {
         display: none;
     }
- .orden {
-   display: grid;
-   grid-template-columns: 1fr;
-   color: crimson;
-}
+
+    .orden {
+        display: grid;
+        grid-template-columns: 1fr;
+        color: crimson;
+    }
 
 
     .body {
